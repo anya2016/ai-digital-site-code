@@ -75,7 +75,8 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Get in Touch</h2>
-            <form>
+            <!-- Contact form with validation and spam checking -->
+            <form id="contactForm">
                 <div class="form-group">
                     <label for="name">Name<span>*</span></label>
                     <input type="text" id="name" name="name" placeholder="Your name" required>
@@ -90,6 +91,8 @@
                 </div>
                 <button type="submit" class="cta-btn">Submit</button>
             </form>
+            <!-- Response message placeholder -->
+            <div id="form-response" aria-live="polite" style="margin-top:1rem;"></div>
         </div>
     </section>
 
